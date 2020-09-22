@@ -1,0 +1,22 @@
+{
+  "name": "iselector",
+  "version": "1.0.0",
+  "description": "Simple Css Selector, like jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js1314/iselector.git"
+  },
+  "keywords": [
+    "iselector"
+  ],
+  "author": "Yonglong Zhu<733433@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/js1314/iselector/issues"
+  },
+  "homepage": "https://github.com/js1314/iselector#readme"
+}
