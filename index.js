@@ -694,7 +694,7 @@ function hasSome(a, b) {
 }
 
 /**
- * 指定类型查询
+ * 根据指定选择器类型查询
  * @param {String} a selector
  * @param {Document|Element} b context
  * @param {String} c selector type
@@ -712,7 +712,7 @@ function faster(a, b, c, d) {
 }
 
 /**
- * 不指定类型查询
+ * 自行判断选择器类型查询
  * @param {String} a
  * @param {Element} b
  * @param {Boolean} c
@@ -748,7 +748,7 @@ function find(a, b, c) {
 }
 
 /**
- * 不指定类型过滤
+ * 自行判断选择器类型过滤
  * @param {String} a
  * @param {Element} b
  * @returns {Array}
@@ -814,7 +814,7 @@ function $(a, b, c) {
 }
 
 /**
- * 根据ID查询
+ * 根据id查询
  * @param {String} a
  * @param {Element} b
  * @param {Boolean} c
@@ -825,18 +825,18 @@ function $id(a, b, c) {
 }
 
 /**
- * 根据ID查询
+ * 根据tag查询
  * @param {String} a
  * @param {Element} b
  * @param {Array} c
- * @returns {Element}
+ * @returns {Array}
  */
 function $tag(a, b, c) {
   return faster(a, b, 'tag', c)
 }
 
 /**
- * 根据ID查询
+ * 根据name查询
  * @param {String} a
  * @param {Element} b
  * @param {Boolean} c
@@ -847,7 +847,7 @@ function $name(a, b, c) {
 }
 
 /**
- * 根据className查询
+ * 根据class查询
  * @param {String} a
  * @param {Element} b
  * @param {Boolean} c
