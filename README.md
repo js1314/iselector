@@ -1,2 +1,3 @@
 # iselector
-Simple Css Selector, like jQuery
+
+Simple CSS Selector (轻量级 CssSelector)
